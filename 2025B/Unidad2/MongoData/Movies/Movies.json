@@ -1,0 +1,72 @@
+[
+  {
+    "_id": { "$oid": "66cf0133fa43e5cfa68f3651" },
+    "title": "Inception",
+    "year": 2010,
+    "director_id": 1,
+    "genre": "Sci-Fi"
+  },
+  {
+    "_id": { "$oid": "66cf0133fa43e5cfa68f3652" },
+    "title": "Interstellar",
+    "year": 2014,
+    "director_id": 1,
+    "genre": "Sci-Fi"
+  },
+  {
+    "_id": { "$oid": "66cf0133fa43e5cfa68f3653" },
+    "title": "Dunkirk",
+    "year": 2017,
+    "director_id": 1,
+    "genre": "War"
+  },
+  {
+    "_id": { "$oid": "66cf0133fa43e5cfa68f3654" },
+    "title": "Pulp Fiction",
+    "year": 1994,
+    "director_id": 2,
+    "genre": "Crime"
+  },
+  {
+    "_id": { "$oid": "66cf0133fa43e5cfa68f3655" },
+    "title": "Kill Bill",
+    "year": 2003,
+    "director_id": 2,
+    "genre": "Action"
+  },
+  {
+    "_id": { "$oid": "66cf0133fa43e5cfa68f3656" },
+    "title": "The Irishman",
+    "year": 2019,
+    "director_id": 3,
+    "genre": "Drama"
+  },
+  {
+    "_id": { "$oid": "66cf0133fa43e5cfa68f3657" },
+    "title": "Goodfellas",
+    "year": 1990,
+    "director_id": 3,
+    "genre": "Crime"
+  },
+  {
+    "_id": { "$oid": "66cf0133fa43e5cfa68f3658" },
+    "title": "Spirited Away",
+    "year": 2001,
+    "director_id": 4,
+    "genre": "Animation"
+  },
+  {
+    "_id": { "$oid": "66cf0133fa43e5cfa68f3659" },
+    "title": "Princess Mononoke",
+    "year": 1997,
+    "director_id": 4,
+    "genre": "Animation"
+  },
+  {
+    "_id": { "$oid": "66cf0133fa43e5cfa68f3660" },
+    "title": "The Shining",
+    "year": 1980,
+    "director_id": 5,
+    "genre": "Horror"
+  }
+]
