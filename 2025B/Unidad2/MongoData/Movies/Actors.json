@@ -1,0 +1,52 @@
+[
+  {
+    "_id": { "$oid": "66cf0157fa43e5cfa68f3751" },
+    "name": "Leonardo DiCaprio",
+    "movies": [ "Inception", "The Irishman" ]
+  },
+  {
+    "_id": { "$oid": "66cf0157fa43e5cfa68f3752" },
+    "name": "Joseph Gordon-Levitt",
+    "movies": [ "Inception" ]
+  },
+  {
+    "_id": { "$oid": "66cf0157fa43e5cfa68f3753" },
+    "name": "Matthew McConaughey",
+    "movies": [ "Interstellar" ]
+  },
+  {
+    "_id": { "$oid": "66cf0157fa43e5cfa68f3754" },
+    "name": "Anne Hathaway",
+    "movies": [ "Interstellar" ]
+  },
+  {
+    "_id": { "$oid": "66cf0157fa43e5cfa68f3755" },
+    "name": "Fionn Whitehead",
+    "movies": [ "Dunkirk" ]
+  },
+  {
+    "_id": { "$oid": "66cf0157fa43e5cfa68f3756" },
+    "name": "John Travolta",
+    "movies": [ "Pulp Fiction" ]
+  },
+  {
+    "_id": { "$oid": "66cf0157fa43e5cfa68f3757" },
+    "name": "Uma Thurman",
+    "movies": [ "Pulp Fiction", "Kill Bill" ]
+  },
+  {
+    "_id": { "$oid": "66cf0157fa43e5cfa68f3758" },
+    "name": "Al Pacino",
+    "movies": [ "The Irishman", "Goodfellas" ]
+  },
+  {
+    "_id": { "$oid": "66cf0157fa43e5cfa68f3759" },
+    "name": "Chihiro (voice: Rumi Hiiragi)",
+    "movies": [ "Spirited Away" ]
+  },
+  {
+    "_id": { "$oid": "66cf0157fa43e5cfa68f3760" },
+    "name": "Jack Nicholson",
+    "movies": [ "The Shining" ]
+  }
+]
