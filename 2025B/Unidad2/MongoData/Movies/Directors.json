@@ -1,0 +1,27 @@
+[
+  {
+    "_id": { "$oid": "66cf0144fa43e5cfa68f3701" },
+    "name": "Christopher Nolan",
+    "country": "UK"
+  },
+  {
+    "_id": { "$oid": "66cf0144fa43e5cfa68f3702" },
+    "name": "Quentin Tarantino",
+    "country": "USA"
+  },
+  {
+    "_id": { "$oid": "66cf0144fa43e5cfa68f3703" },
+    "name": "Martin Scorsese",
+    "country": "USA"
+  },
+  {
+    "_id": { "$oid": "66cf0144fa43e5cfa68f3704" },
+    "name": "Hayao Miyazaki",
+    "country": "Japan"
+  },
+  {
+    "_id": { "$oid": "66cf0144fa43e5cfa68f3705" },
+    "name": "Stanley Kubrick",
+    "country": "USA"
+  }
+]
