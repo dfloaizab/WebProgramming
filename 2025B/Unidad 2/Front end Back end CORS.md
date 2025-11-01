@@ -1,17 +1,19 @@
-# Configuración de CORS en una API REST desarrollada con NestJS
+# PROGRAMACIÓN WEB, 2025 B
+# UNIVERSIDAD SANTIAGO DE CALI
+## Configuración de CORS en una API REST desarrollada con NestJS
 
-## Introducción
+### Introducción
 
-El presente documento tiene como propósito explicar el procedimiento para configurar el mecanismo de **CORS (Cross-Origin Resource Sharing)** en una API REST implementada con el framework **NestJS**, de modo que pueda ser consumida por una aplicación cliente sencilla, como un formulario HTML. Se abordarán los conceptos básicos, su relevancia en el desarrollo web y los pasos detallados para su correcta implementación.
+El presente instructivo tiene como propósito explicar el procedimiento para configurar el mecanismo de **CORS (Cross-Origin Resource Sharing)** en una API REST implementada con el framework **NestJS**, de modo que pueda ser consumida por una aplicación cliente sencilla, como un formulario HTML. Se abordarán los conceptos básicos, su relevancia en el desarrollo web y los pasos detallados para su correcta implementación.
 
-## Objetivos
+### Objetivos
 
 1. Comprender el concepto de CORS y su función dentro de la arquitectura cliente-servidor.
 2. Explicar la importancia de permitir o restringir solicitudes entre distintos orígenes.
 3. Implementar la configuración de CORS en un proyecto NestJS.
 4. Consumir la API desde un formulario HTML mediante los métodos HTTP GET y POST.
 
-## Descripción de los conceptos
+### Descripción de los conceptos
 
 **CORS (Cross-Origin Resource Sharing)** es un mecanismo de seguridad implementado por los navegadores que restringe las solicitudes HTTP realizadas desde un origen distinto al del servidor que expone los recursos.  
 Un “origen” está definido por la combinación de protocolo, dominio y puerto.  
@@ -19,14 +21,14 @@ Por ejemplo, una aplicación que se ejecuta en `http://localhost:3000` no puede,
 
 La configuración de CORS resulta esencial para garantizar la integridad y seguridad de las aplicaciones web modernas, evitando accesos no autorizados, robo de datos o ataques de tipo CSRF (Cross-Site Request Forgery).
 
-## Importancia de la configuración de CORS
+### Importancia de la configuración de CORS
 
 El correcto manejo de CORS permite que:
 - Las aplicaciones cliente (por ejemplo, formularios web) puedan comunicarse con APIs externas sin restricciones indebidas.
 - Se mantenga la seguridad al limitar qué dominios pueden acceder a los recursos de la API.
 - Se eviten errores comunes en las solicitudes, tales como “No 'Access-Control-Allow-Origin' header is present on the requested resource”.
 
-## Configuración paso a paso en NestJS
+### Configuración paso a paso en NestJS
 
 1. **Creación del proyecto NestJS**
 
@@ -110,7 +112,7 @@ El correcto manejo de CORS permite que:
 
    El servidor quedará disponible en `http://localhost:3000`.
 
-## Consumo de la API desde un formulario HTML
+### Consumo de la API desde un formulario HTML
 
 A continuación se presenta un ejemplo básico de formulario que realiza solicitudes GET y POST a la API mediante JavaScript utilizando la API Fetch.
 
@@ -163,6 +165,6 @@ A continuación se presenta un ejemplo básico de formulario que realiza solicit
 
 Al ejecutar este formulario desde un origen diferente al de la API (por ejemplo, desde un archivo local o un servidor simple), el intercambio de datos será posible gracias a la configuración de CORS realizada en el servidor NestJS.
 
-## Conclusiones
+### Conclusiones
 
 La habilitación y configuración de CORS es un paso fundamental en el desarrollo de aplicaciones web modernas. Permite mantener un equilibrio entre accesibilidad y seguridad, asegurando que solo los orígenes autorizados puedan interactuar con los recursos de la API. NestJS facilita esta tarea mediante su método nativo `enableCors()`, lo que permite integrar el control de acceso de manera sencilla, precisa y segura.
