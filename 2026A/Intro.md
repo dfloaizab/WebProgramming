@@ -434,7 +434,7 @@ Construya una galería de imágenes que muestre entre 3 y 4 imágenes por fila s
 
 Requisitos específicos: utilice CSS Grid o Flexbox para la distribución. Las imágenes deben cubrir completamente su contenedor sin distorsionarse (object-fit). Añada un efecto de zoom suave al pasar el cursor sobre cada imagen. Incluya un título o descripción que aparezca al hacer hover sobre cada imagen.
 
-## Recursos adicionales para continuar aprendando
+## Recursos adicionales para continuar aprendiendo
 
 Para profundizar en HTML y CSS, considere explorar documentación oficial en MDN Web Docs, que ofrece referencias completas y tutoriales detallados. Practique regularmente creando proyectos personales que le interesen. Estudie el código fuente de sitios web que admire usando las herramientas de desarrollo del navegador. Explore frameworks CSS como Bootstrap o Tailwind cuando se sienta cómodo con CSS puro. Manténgase actualizado sobre nuevas características y mejores prácticas, ya que estas tecnologías continúan evolucionando.
 
