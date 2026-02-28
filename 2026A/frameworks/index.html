@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>AguaParaTodos</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+
+<body class="bg-gradient-to-r from-blue-400 to-cyan-600 min-h-screen flex items-center justify-center">
+
+<div class="bg-white shadow-2xl rounded-2xl p-8 w-full max-w-xl">
+
+  <h1 class="text-3xl font-bold text-center text-blue-700 mb-6">
+    Agua para todos
+  </h1>
+
+  <p class="text-gray-600 text-center mb-6">
+    Reporta problemas de agua en tu comunidad.
+  </p>
+
+  <!-- FORMULARIO -->
+  <form id="reporteForm" class="space-y-4">
+
+    <input type="text" id="nombre" placeholder="Tu nombre"
+      class="w-full border p-2 rounded-lg focus:ring-2 focus:ring-blue-400" required>
+
+    <select id="tipo"
+      class="w-full border p-2 rounded-lg focus:ring-2 focus:ring-blue-400">
+      <option value="fuga">Fuga de agua</option>
+      <option value="contaminacion">Contaminación</option>
+      <option value="baja_presion">Baja presión</option>
+    </select>
+
+    <textarea id="descripcion" placeholder="Describe el problema"
+      class="w-full border p-2 rounded-lg focus:ring-2 focus:ring-blue-400"
+      required></textarea>
+
+    <button type="submit"
+      class="w-full bg-blue-600 text-white py-2 rounded-lg hover:bg-blue-700 transition">
+      Enviar Reporte
+    </button>
+  </form>
+
+  <hr class="my-6">
+
+  <button id="verReportes"
+    class="w-full bg-green-600 text-white py-2 rounded-lg hover:bg-green-700 transition">
+    Ver Reportes (GET)
+  </button>
+
+  <div id="resultado" class="mt-6 text-sm"></div>
+
+</div>
+
+<script src="app.js"></script>
+
+</body>
+</html>
