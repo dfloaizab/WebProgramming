@@ -1,4 +1,4 @@
-
+# Universidad Santiago de Cali, Programación Web 2026A
 # Guía: Autenticación con NestJS + MongoDB + Password Hash + Formulario HTML
 
 ## Objetivo
@@ -232,23 +232,13 @@ await usersService.create('admin', '123456');
 
 ---
 
-## 13. Próximo nivel profesional
 
-- JWT después de login
-- Refresh tokens
-- Roles admin/user
-- Recuperación contraseña
-- Email verification
-- CAPTCHA
-- OAuth Google
 
----
-
-## 14. Resumen
+## 13. Resumen
 
 Este modelo es ideal para:
 
 - Sistemas empresariales internos
 - Intranets
 - Paneles administrativos
-- Apps tradicionales con usuarios propios
+- Apps tradicionales con usuarios propios y roles de autorización personalidados (ajustados a las necesidades de la empresa)
