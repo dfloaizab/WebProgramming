@@ -1,7 +1,7 @@
 # PROGRAMACIÓN ORIENTADA A LA WEB
-# UNIVERSIDAD SANTIAGO DE CALI, 2026B
-# Instructivo — Implementando "Modo Oscuro"
-## Introducción práctica a JavaScript y manipulación del DOM
+## UNIVERSIDAD SANTIAGO DE CALI, 2026B
+## Instructivo — Implementando "Modo Oscuro"
+### Introducción práctica a JavaScript y manipulación del DOM
 
 Este instructivo continúa el proyecto de la Clase 1 (plataforma de registro de casos). Se usará como excusa para introducir, de forma incremental y sencilla, los mecanismos centrales de manipulación del DOM con JavaScript: seleccionar elementos, modificar clases, escuchar eventos y guardar el estado del usuario.
 
