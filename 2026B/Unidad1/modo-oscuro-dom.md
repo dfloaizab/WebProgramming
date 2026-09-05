@@ -1,3 +1,5 @@
+# PROGRAMACIÓN ORIENTADA A LA WEB
+# UNIVERSIDAD SANTIAGO DE CALI, 2026B
 # Instructivo — Implementando "Modo Oscuro"
 ## Introducción práctica a JavaScript y manipulación del DOM
 
@@ -235,7 +237,7 @@ botonTema.addEventListener('click', function () {
 
 ---
 
-## 6. Ejercicio propuesto para el estudiante
+## 6. Ejercicio propuesto 
 
 1. Replicar el botón de modo oscuro en `reportar.html` y `casos.html`, asegurándose de que la preferencia guardada en `localStorage` se respete al entrar a cualquiera de las tres páginas (es decir, `script.js` debe estar enlazado en las tres).
 2. Agregar una regla CSS adicional dentro de `body.dark-mode` para que las tarjetas de casos (`.tarjeta-caso`) tengan un borde más sutil y legible sobre fondo oscuro.
